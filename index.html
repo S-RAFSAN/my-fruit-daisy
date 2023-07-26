@@ -1,11 +1,468 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Burst</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/ea58bbdf3a.js" crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
-    
+  <header>
+
+    <nav class="mx-56 my-12">
+      <div class="navbar bg-[#F85559] rounded-full  bg-base-100 bg-50 ">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        </div>
+
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        </div>
+
+        <div class="flex-none gap-2">
+          <div class="form-control relative">
+            <input type="text" placeholder="Search" class="input input-bordered rounded-full my-3 mx-4 w-96 md:w-96 " />
+            <button class="btn btn-ghost btn-circle absolute bottom-[12px] right-[17px]">
+              <svg xmlns="http://www.w3.org/2000/svg" class=" h-7 w-7" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+    </nav>
+
+
+  </header>
+
+  <main>
+
+
+
+
+
+    <section>
+
+
+      <div>
+
+
+        <div class="hero h-auto w-auto mx-72  " style="background-image: url('./images/banner1.png');">
+          <div class="hero-overlay bg-opacity-60"></div>
+
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold mt-20">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-accent bg-[#F85559] border-none text-white mb-20">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="flex bg-white drop-shadow-md p-8 w-auto mx-96 justify-center justify-between -mt-14">
+          <div class="text-center">
+            <img src="images/fruit1.png" alt="">
+            <h3 class="mt-4">Jam</h3>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit2.png" alt="">
+            <h3 class="mt-4">Orange</h3>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit3.png" alt="">
+            <h3 class="mt-4">Mango</h3>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit4.png" alt="">
+            <h3 class="mt-4">Strawberry</h3>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit5.png" alt="">
+            <h3 class="mt-4">Pomegranate</h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section>
+
+      <div class="flex justify-center mt-24 items-center ">
+
+        <div class="mr-96">
+
+          <h1 class="text-6xl font-extrabold">Deal of the day</h1>
+          <p class="mt-10 mb-10">Contrary to popular belief, is not simply random text. It has roots in a <br> piece of
+            classical Latin
+            literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+
+        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:15;"></span>
+            </span>
+            days
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:10;"></span>
+            </span>
+            hours
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:24;"></span>
+            </span>
+            min
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:28;"></span>
+            </span>
+            sec
+          </div>
+        </div>
+
+        <div>
+
+        </div>
+
+      </div>
+
+      <div class="flex mt-10 justify-center ">
+
+        <div>
+
+
+
+
+
+
+          <div class="card-01 card w-96 bg-base-100 drop-shadow-lg mr-6">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div>
+
+                <div class="rating rating-lg rating-half">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                </div>
+
+              </div>
+
+
+              <p class="cursor-pointer mt-10 text-green-700 text-xl" onclick="my_modal_1.showModal()">Details</p>
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+
+                  <figure class="px-10 pt-10">
+                    <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div>
+
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1"
+                          checked />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                      </div>
+
+                    </div>
+
+                    <div class="modal-action">
+
+                      <button class="btn">Close</button>
+                      <button class="btn">Buy Now</button>
+                    </div>
+                </form>
+              </dialog>
+
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+        <div id="card-02" class="card w-96 bg-base-100 drop-shadow-lg mr-6">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div>
+
+              <div class="rate-02 rating rating-lg rating-half">
+                <input type="radio" name="rating-20" class="rating-hidden" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+              </div>
+
+
+              <p class="cursor-pointer mt-10 text-green-700 text-xl" onclick="my_modal_2.showModal()">Details</p>
+              <dialog id="my_modal_2" class="modal">
+                <form method="dialog" class="modal-box">
+
+                  <figure class="px-10 pt-10">
+                    <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div>
+
+                      <div class="rate-02 rating rating-lg rating-half">
+                        <input type="radio" name="rating-20" class="rating-hidden" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1"
+                          checked />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-20" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                      </div>
+
+
+                      <div class="modal-action">
+
+                        <button class="btn">Close</button>
+                        <button class="btn">Buy Now</button>
+                      </div>
+                </form>
+              </dialog>
+
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+        <div id="card-03" class=" card w-96 bg-base-100 drop-shadow-lg mr-6">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div>
+
+              <div class="rating rating-lg rating-half">
+                <input type="radio" name="rating-30" class="rating-hidden" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+              </div>
+
+
+              <p class="cursor-pointer mt-10 text-green-700 text-xl" onclick="my_modal_3.showModal()">Details</p>
+              <dialog id="my_modal_3" class="modal">
+                <form method="dialog" class="modal-box">
+
+                  <figure class="px-10 pt-10">
+                    <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div>
+
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-30" class="rating-hidden" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1"
+                          checked />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-30" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                      </div>
+
+                      <div class="modal-action">
+
+                        <button class="btn">Close</button>
+                        <button class="btn">Buy Now</button>
+                      </div>
+                </form>
+              </dialog>
+
+            </div>
+
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+        <div id="card-04" class=" card w-96 bg-base-100 drop-shadow-lg ">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div>
+
+              <div class="rating rating-lg rating-half">
+                <input type="radio" name="rating-40" class="rating-hidden" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+              </div>
+
+
+              <p class="cursor-pointer mt-10 text-green-700 text-xl" onclick="my_modal_4.showModal()">Details</p>
+              <dialog id="my_modal_4" class="modal">
+                <form method="dialog" class="modal-box">
+
+                  <figure class="px-10 pt-10">
+                    <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div>
+
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-40" class="rating-hidden" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1"
+                          checked />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-40" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                      </div>
+
+                      <div class="modal-action">
+
+                        <button class="btn">Close</button>
+                        <button class="btn">Buy Now</button>
+                      </div>
+                </form>
+              </dialog>
+
+
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="flex justify-center mt-16 ">
+        <button class="btn btn-accent bg-[#F85559] border-none text-white ">Shop All</button>
+      </div>
+
+
+    </section>
+
+
+
+
+
+  </main>
+
+
+  <footer>
+
+
+
+  </footer>
+
 </body>
+
 </html>
